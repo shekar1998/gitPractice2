@@ -1,0 +1,16 @@
+$white: white;
+$radius: 5px;
+$shadow-color: rgb(200, 200, 200);
+$direction: ltr;
+
+@mixin alignment {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+$opposite-direction: rtl;
+
+$start-direction: left;
+
+$end-direction: right;

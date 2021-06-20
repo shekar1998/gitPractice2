@@ -1,0 +1,14 @@
+@import "./body/body";
+@import "./header/header";
+@import "./animation/animation";
+
+@media screen and (max-width: 500px) {
+	header {
+		h1 {
+			width: 100%;
+		}
+		div {
+			width: 100%;
+		}
+	}
+}

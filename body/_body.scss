@@ -1,0 +1,14 @@
+@import "../variables/variables";
+
+body,
+html {
+	padding: 0px;
+	margin: 0;
+	box-sizing: border-box;
+	height: 100%;
+	direction: $opposite-direction;
+}
+
+input:focus {
+	outline: none;
+}

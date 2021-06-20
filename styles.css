@@ -1,0 +1,115 @@
+body,
+html {
+  padding: 0px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100%;
+  direction: rtl;
+}
+
+input:focus {
+  outline: none;
+}
+
+header {
+  width: 100%;
+  padding: 15px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 5px 0 #c8c8c8;
+          box-shadow: 0px 0px 5px 0 #c8c8c8;
+}
+
+header h1 {
+  float: right;
+  margin: auto;
+}
+
+header div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header div button {
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  color: white;
+  margin: auto 10px;
+  background-color: royalblue;
+}
+
+header div input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  -webkit-box-shadow: inset 1px 1px 5px 0px #c8c8c8;
+          box-shadow: inset 1px 1px 5px 0px #c8c8c8;
+}
+
+.animated-text {
+  color: white;
+  text-align: center;
+  margin: auto;
+  -webkit-animation: example 10s linear 2s 20 alternate;
+          animation: example 10s linear 2s 20 alternate;
+}
+
+@-webkit-keyframes example {
+  0% {
+    opacity: 0.1;
+    -webkit-transform: translate(0%, 50%);
+            transform: translate(0%, 50%);
+    background-color: blue;
+  }
+  50% {
+    opacity: 0.5;
+    -webkit-transform: translate(0%, 100%);
+            transform: translate(0%, 100%);
+    background-color: green;
+  }
+  100% {
+    opacity: 0.1;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    background-color: red;
+  }
+}
+
+@keyframes example {
+  0% {
+    opacity: 0.1;
+    -webkit-transform: translate(0%, 50%);
+            transform: translate(0%, 50%);
+    background-color: blue;
+  }
+  50% {
+    opacity: 0.5;
+    -webkit-transform: translate(0%, 100%);
+            transform: translate(0%, 100%);
+    background-color: green;
+  }
+  100% {
+    opacity: 0.1;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header h1 {
+    width: 100%;
+  }
+  header div {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
