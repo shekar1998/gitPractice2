@@ -1,0 +1,30 @@
+@import "../variables/variables";
+
+header {
+	width: 100%;
+	padding: 15px;
+	background-color: $white;
+	box-shadow: 0px 0px 5px 0 $shadow-color;
+	h1 {
+		float: $end-direction;
+		margin: auto;
+	}
+	div {
+		@include alignment();
+		button {
+			border-radius: $radius;
+			padding: 10px;
+			border: none;
+			color: $white;
+			margin: auto 10px;
+			background-color: royalblue;
+		}
+
+		input {
+			padding: 10px;
+			border-radius: $radius;
+			border: none;
+			box-shadow: inset 1px 1px 5px 0px $shadow-color;
+		}
+	}
+}
